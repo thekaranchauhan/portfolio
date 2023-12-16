@@ -1,5 +1,6 @@
 "use client";
 
+import Hero from "./hero/Hero";
 import useBlobity from "blobity/lib/useBlobity";
 import { useEffect } from "react";
 import { initialBlobityOptions } from "./utils/BlobityConfig";
@@ -26,6 +27,9 @@ export default function Home() {
     <>
     <PreLoader />
     <Navbar />
+    <main className="flex flex-col items-center justify-center">
+        <Hero />
+      </main>
     </>
   )
 }

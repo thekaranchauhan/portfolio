@@ -40,7 +40,7 @@ export const staggerChildren = {
   },
 };
 
-export const wordAnimation = {
+export const textAnimation = {
   initial: {
     opacity: 0,
     y: 150,
@@ -56,7 +56,7 @@ export const wordAnimation = {
   },
 };
 
-export const wordAnimation2 = {
+export const textAnimation2 = {
   initial: {
     opacity: 0,
     y: 150,

@@ -3,12 +3,12 @@ import { useEffect } from "react";
 import { useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-type AnimatedWordsProps = {
+type AnimatedTextProps = {
   title: string;
   style: string;
 };
 
-const AnimatedText: React.FC<AnimatedWordsProps> = ({ title, style }) => {
+const AnimatedText: React.FC<AnimatedTextProps> = ({ title, style }) => {
   const ctrls = useAnimation();
 
   const { ref, inView } = useInView({
