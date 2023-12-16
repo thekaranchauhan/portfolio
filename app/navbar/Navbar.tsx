@@ -30,7 +30,7 @@ const Navbar = () => {
         </h4>
       </Link>
       <Link
-        href="#about"
+        href="#bio"
         data-blobity-magnetic="false"
         onClick={handleScroll}
         aria-label="Scroll to Bio Section"

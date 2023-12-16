@@ -7,6 +7,9 @@ import { initialBlobityOptions } from "./utils/BlobityConfig";
 import PreLoader from "./animations/Preloader/Preloader";
 import Navbar from "./navbar/Navbar";
 
+import dynamic from "next/dynamic";
+const Bio = dynamic(() => import("./bio/Bio"));
+
 export default function Home() {
   const blobityInstance = useBlobity(initialBlobityOptions);
 
@@ -29,6 +32,7 @@ export default function Home() {
     <Navbar />
     <main className="flex flex-col items-center justify-center">
         <Hero />
+        <Bio />
       </main>
     </>
   )

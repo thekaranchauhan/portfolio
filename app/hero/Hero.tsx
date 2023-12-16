@@ -78,7 +78,7 @@ const Hero = () => {
           className="  max-w-[350px] md:max-w-[400px] lg:max-w-[400px]"
           variants={bodyAnimation}
         >
-          <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-right">
+          <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
             Full Stack Developer with most impact on Frontend and UI/UX Researcher.
           </p>
         </motion.div>
@@ -87,7 +87,7 @@ const Hero = () => {
           className="  hidden max-w-[500px] lg:block lg:max-w-[420px]"
           variants={bodyAnimation}
         >
-          <p className="text-left text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
+          <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
             Focused on Design and Business, currently building <Link href={"https://www.docvi.xyz/"}> Docvi.
             </Link>
           </p>
