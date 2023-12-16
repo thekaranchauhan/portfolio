@@ -1,9 +1,27 @@
 "use client";
 
+import useBlobity from "blobity/lib/useBlobity";
+import { useEffect } from "react";
+import { initialBlobityOptions } from "./utils/BlobityConfig";
 import PreLoader from "./animations/Preloader/Preloader";
 import Navbar from "./navbar/Navbar";
 
 export default function Home() {
+  const blobityInstance = useBlobity(initialBlobityOptions);
+
+  useEffect(() => {
+    if (blobityInstance.current) {
+      // @ts-ignore for debugging purposes or playing around
+      window.blobity = blobityInstance.current;
+    }
+  }, [blobityInstance]);
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+    });
+  }, []);
   return (
     <>
     <PreLoader />
