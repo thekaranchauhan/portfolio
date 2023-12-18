@@ -11,7 +11,7 @@ import dynamic from "next/dynamic";
 const Bio = dynamic(() => import("./bio/Bio"));
 const LinkedIn = dynamic(() => import("./linkedin/Linkedin"));
 const Projects = dynamic(() => import("./projects/Projects"));
-const Snippets = dynamic(() => import("./snippets/Snippets"));
+const Snippets = dynamic(() => import("./Snippets/Snippets"));
 const Contact = dynamic(() => import("./contact/Contact"));
 const Footer = dynamic(() => import("./footer/Footer"));
 
