@@ -55,6 +55,18 @@ const Hero = () => {
               LINKEDIN
             </motion.p>
           </Link>
+          <Link
+            href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+            target="_blank"
+            aria-label="View LinkedIn Profile"
+          >
+            <motion.p
+              className="sm:hidden text-[16px] font-bold text-[#e4ded7]"
+              variants={bodyAnimation}
+            >
+              RESUME
+            </motion.p>
+          </Link>
         </div>
       </div>
 
@@ -79,7 +91,8 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Full Stack Developer with most impact on Frontend and UI/UX Researcher.
+            Full Stack Developer with most impact on Frontend and UI/UX
+            Researcher.
           </p>
         </motion.div>
 
@@ -88,8 +101,8 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on Design and Business, currently building <Link href={"https://www.docvi.xyz/"}> Docvi.
-            </Link>
+            Focused on Design and Business, currently building{" "}
+            <Link href={"https://www.docvi.xyz/"}> Docvi.</Link>
           </p>
         </motion.div>
       </div>

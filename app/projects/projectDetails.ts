@@ -39,7 +39,7 @@ export const devProjects =[{
   id: 3,
   name: "Gitstar",
   description: "Shows most starred github repositories.",
-  technologies: ["React", "Framer Motion", "Chakra UI"],
+  technologies: ["React", "Framer", "Chakra"],
   demo: "https://gitstar-beta.vercel.app/",
   image: require(".//../../public/projects/gitstar.png"),
   available: true,

@@ -1,8 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { SiBuymeacoffee } from "react-icons/si";
-import { IconContext } from "react-icons";
 
 const Navbar = () => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -18,7 +16,7 @@ const Navbar = () => {
     });
   };
   return (
-    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0  mx-auto  flex w-[306px] items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-1 py-1 text-[#e4ded7] border border-white backdrop-blur-md sm:w-[483.3px] md:p-2 lg:w-[491.3px]">
+    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0  mx-auto  flex w-[306px] items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md sm:w-[483.3px] md:p-2 lg:w-[491.3px]">
       <Link
         href="#home"
         data-blobity-magnetic="false"
