@@ -9,8 +9,9 @@ import Navbar from "./navbar/Navbar";
 
 import dynamic from "next/dynamic";
 const Bio = dynamic(() => import("./bio/Bio"));
+const LinkedIn = dynamic(() => import("./linkedin/Linkedin"));
 const Projects = dynamic(() => import("./projects/Projects"));
-const Snippets = dynamic(() => import("./Snippets/Snippets"));
+const Snippets = dynamic(() => import("./snippets/Snippets"));
 
 export default function Home() {
   const blobityInstance = useBlobity(initialBlobityOptions);
@@ -35,6 +36,7 @@ export default function Home() {
     <main className="flex flex-col items-center justify-center">
         <Hero />
         <Bio />
+        <LinkedIn />
         <Projects />
         <Snippets />
       </main>
