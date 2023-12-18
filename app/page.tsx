@@ -12,6 +12,8 @@ const Bio = dynamic(() => import("./bio/Bio"));
 const LinkedIn = dynamic(() => import("./linkedin/Linkedin"));
 const Projects = dynamic(() => import("./projects/Projects"));
 const Snippets = dynamic(() => import("./snippets/Snippets"));
+const Contact = dynamic(() => import("./contact/Contact"));
+const Footer = dynamic(() => import("./footer/Footer"));
 
 export default function Home() {
   const blobityInstance = useBlobity(initialBlobityOptions);
@@ -39,6 +41,8 @@ export default function Home() {
         <LinkedIn />
         <Projects />
         <Snippets />
+        <Contact />
+        <Footer />
       </main>
     </>
   )

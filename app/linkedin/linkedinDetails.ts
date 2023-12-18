@@ -34,6 +34,6 @@ export const linkedin =[
     name: "Allen George",
     designation: "Digital Marketer & Student, Mohawk College",
     recommendation: "Karan's expertise in sustainability issues and their complex interrelationships with society, economy, and environment is impressive and has a deep understanding of the challenges that businesses face in becoming more...",
-    image: require("../../public/linkedin/heli.jpg"),
+    image: require("../../public/linkedin/allen.jpg"),
   },
 ];
