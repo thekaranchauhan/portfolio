@@ -8,17 +8,27 @@ export type ProjectProps = {
   available: boolean;
 };
 
-export const devProjects =[{
-  id: 0,
+export const devProjects =[
+{
+    id: 0,
+    name: "Writings",
+    description: "Here I write the code snippets, business case studies and writings, some of them are solutions and code blocks that I came across while developing stuff.",
+    technologies: ["React", "Rehype","Prism", "Reamark"],
+    demo: "https://writings-by-karan.vercel.app/",
+    image: require(".//../../public/projects/writings.png"),
+    available: true,
+},
+{
+  id: 1,
   name: "Docvi (In Progress)",
-  description: "Prepare to redefine the way you handle documents. Unleashing a new era in secure collaboration because your documents deserve more than just storage.",
+  description: "Unleashing a new era in secure collaboration because your documents deserve more than just storage.",
   technologies: ["Prisma", "Redux","MERN", "GraphQL"],
   demo: "https://www.docvi.xyz/",
   image: require(".//../../public/projects/docvi.png"),
   available: true,
 },
 {
-  id: 1,
+  id: 2,
   name: "Moviepedia",
   description: "Encyclopedia of movies. Created using TMDB API.",
   technologies: ["Next", "Axios", "Styled Components"],
@@ -27,7 +37,7 @@ export const devProjects =[{
   available: true,
 },
 {
-  id: 2,
+  id: 3,
   name: "Snip",
   description: "Convert your code into image and gif. Download and share it.",
   technologies: ["React", "Gifshot", "Prism"],
@@ -36,7 +46,7 @@ export const devProjects =[{
   available: true,
 },
 {
-  id: 3,
+  id: 4,
   name: "Gitstar",
   description: "Shows most starred github repositories.",
   technologies: ["React", "Framer", "Chakra"],
@@ -45,7 +55,7 @@ export const devProjects =[{
   available: true,
 },
 {
-  id: 4,
+  id: 5,
   name: "Emojico",
   description: "Search emojis for your projects and right click to copy it.",
   technologies: ["React", "Clipboard", "UUID"],
@@ -54,7 +64,7 @@ export const devProjects =[{
   available: true,
 },
 {
-  id: 5,
+  id: 6,
   name: "Lotterify",
   description: "Lottery app based on Ethereum Blockchain. Stake in and win prizes.",
   technologies: ["Soliity", "Chainlink", "Next"],
@@ -63,7 +73,7 @@ export const devProjects =[{
   available: true,
 },
 {
-  id: 6,
+  id: 7,
   name: "Europa Fusion",
   description: "Website for a study abroad consultancy based client in India.",
   technologies: ["Next", "Tailwind", "Nodemailer"],
@@ -72,7 +82,7 @@ export const devProjects =[{
   available: true,
 },
 {
-  id: 7,
+  id: 8,
   name: "Reyansh Capital (In Progress)",
   description: "Website for a real estate agent based in India.",
   technologies: ["Next", "GSAP", "Tailwind"],
