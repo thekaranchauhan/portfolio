@@ -76,7 +76,7 @@ const Hero = () => {
         >
           <AnimatedText
             title="KARAN CHAUHAN"
-            style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
+            style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4 "
           />
         </div>
       </div>
@@ -91,8 +91,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Full Stack Developer with most impact on Frontend and UI/UX
-            Researcher.
+            <span className="text-[#dfa878]">Full Stack Developer</span> with most impact on <span className="text-[#dfa878]">Frontend and UI/UX </span>Researcher.
           </p>
         </motion.div>
 
@@ -102,7 +101,7 @@ const Hero = () => {
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
             Focused on Design and Business, currently building{" "}
-            <Link href={"https://www.docvi.xyz/"}> Docvi.</Link>
+            <Link  className="text-[#dfa878]" href={"https://www.docvi.xyz/"}> Docvi.</Link>
           </p>
         </motion.div>
       </div>

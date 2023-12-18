@@ -10,6 +10,7 @@ import Navbar from "./navbar/Navbar";
 import dynamic from "next/dynamic";
 const Bio = dynamic(() => import("./bio/Bio"));
 const Projects = dynamic(() => import("./projects/Projects"));
+const Snippets = dynamic(() => import("./Snippets/Snippets"));
 
 export default function Home() {
   const blobityInstance = useBlobity(initialBlobityOptions);
@@ -35,6 +36,7 @@ export default function Home() {
         <Hero />
         <Bio />
         <Projects />
+        <Snippets />
       </main>
     </>
   )

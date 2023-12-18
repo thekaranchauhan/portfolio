@@ -5,7 +5,7 @@ import AnimatedTitle from "../animations/AnimatedTitle";
 const Bio = () => {
   return (
     <section
-      className="relative z-10 w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center pt-16 pb-36 md:pt-20 md:pb-44 lg:pt-20 lg:pb-56"
+      className="relative z-10 w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center pt-16 pb-6 md:pt-20 md:pb-6 lg:pt-20 lg:pb-6"
       id="bio"
     >
       <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
@@ -49,7 +49,7 @@ const Bio = () => {
               <AnimatedTitle
                 text={"Main Tech Stack"}
                 className={
-                  "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
+                  "text-[24px] text-[#dfa878] md:text-[30px] lg:text-[20px]"
                 }
                 wordSpace={"mr-[0.25em]"}
                 charSpace={"mr-[0.01em]"}
@@ -64,7 +64,7 @@ const Bio = () => {
               <AnimatedTitle
                 text={"Design Tools"}
                 className={
-                  "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
+                  "text-[24px] text-[#dfa878] md:text-[30px] lg:text-[20px]"
                 }
                 wordSpace={"mr-[0.25em]"}
                 charSpace={"mr-[0.01em]"}

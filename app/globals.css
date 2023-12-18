@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  /* Customize the scrollbar track */
+  background-color: #0e1016;
+}
+
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  background-color: #dfa878;
+}
+
 @layer base {
   h1 {
     @apply text-4xl;
