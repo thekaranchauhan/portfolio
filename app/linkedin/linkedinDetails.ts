@@ -31,6 +31,12 @@ export const linkedin =[
     image: require("../../public/linkedin/jinesh.jpg"),
   },
   {
+    name: "Husain Sodagar",
+    designation: "Digital Marketer & Student, Mohawk College",
+    recommendation: "Having worked in the same team as Karan, I have an ample amount of respect for his discipline, diligence and dedication towards his work. His communication skills combined with his expertise...",
+    image: require("../../public/linkedin/husain.jpg"),
+  },
+  {
     name: "Allen George",
     designation: "Digital Marketer & Student, Mohawk College",
     recommendation: "Karan's expertise in sustainability issues and their complex interrelationships with society, economy, and environment is impressive and has a deep understanding of the challenges that businesses face in becoming more...",
