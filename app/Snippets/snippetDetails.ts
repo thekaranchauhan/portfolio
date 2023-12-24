@@ -11,6 +11,11 @@ export const snippets =[
   demo: "https://writings-by-karan.vercel.app/blog/leadership-my-experience",
 },
 {
+  name: "TypeScript: PiP Mode",
+  description: "React hook for handling PiP mode using TypeScript.",
+  demo: "https://writings-by-karan.vercel.app/blog/video-pip-mode",
+},
+{
   name: "Languages 2024",
   description: "The 3 languages that every developer should learn for 2024.",
   demo: "https://writings-by-karan.vercel.app/blog/top-languages-2024",
