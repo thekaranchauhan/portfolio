@@ -6,6 +6,8 @@ import { useEffect } from "react";
 import { initialBlobityOptions } from "./utils/BlobityConfig";
 import PreLoader from "./animations/Preloader/Preloader";
 import Navbar from "./navbar/Navbar";
+import consoleMessage from "./utils/console-msg";
+consoleMessage();
 
 import dynamic from "next/dynamic";
 const Bio = dynamic(() => import("./bio/Bio"));
