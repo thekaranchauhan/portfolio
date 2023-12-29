@@ -16,7 +16,7 @@ const Navbar = () => {
     });
   };
   return (
-    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0  mx-auto  flex w-[306px] items-center justify-center gap-1 rounded-lg bg-[#dfa878]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md sm:w-[483.3px] md:p-2 lg:w-[491.3px]">
+    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0  mx-auto  flex w-[345px] items-center justify-center gap-1 rounded-lg bg-[#dfa878]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md sm:w-[483.3px] md:p-2 lg:w-[491.3px]">
       <Link
         href="#home"
         data-blobity-magnetic="false"
@@ -39,13 +39,13 @@ const Navbar = () => {
       </Link>
 
       <Link
-        href="#projects"
+        href="#work"
         data-blobity-magnetic="false"
         onClick={handleScroll}
         aria-label="Scroll to Work Section"
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Projects
+          Work
         </h4>
       </Link>
 
@@ -56,7 +56,18 @@ const Navbar = () => {
         aria-label="Scroll to Snippets Section"
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Snippets
+          Snips
+        </h4>
+      </Link>
+
+      <Link
+        href="#exercsim"
+        data-blobity-magnetic="false"
+        onClick={handleScroll}
+        aria-label="Scroll to Snippets Section"
+      >
+        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+          Exercism
         </h4>
       </Link>
 

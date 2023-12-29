@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Full Stack Developer with most impact on Frontend and UI/UX Researcher. Focused on design and business, currently building Docvi.",
   generator: "Next.js",
-  applicationName: "Karan Chauhan",
+  applicationName: "Karan Chauhan - Portfolio",
   keywords: [
     "UI/UX Researcher",
     "Business Analyst",

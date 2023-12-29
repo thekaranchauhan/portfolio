@@ -1,14 +1,14 @@
-import ProjectGrid from "./ProjectGrid";
+import ExercsimGrid from "./ExercismGrid";
 
-const Projects = () => {
+const Exercism = () => {
   return (
     <section
       className="relative z-10 flex w-full flex-col items-center justify-center bg-[#0E1016] bg-cover bg-center py-16 md:py-20 lg:py-20"
-      id="work"
+      id="exercsim"
     >
-      <ProjectGrid />
+      <ExercsimGrid />
     </section>
   );
 };
 
-export default Projects;
+export default Exercism;

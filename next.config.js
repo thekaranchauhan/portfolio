@@ -3,6 +3,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  viewport: {
+    colorScheme: 'dark',
+  },
   optimizeFonts: false,
   images: {
     domains: ['https://www.thekaran.pro/'],
