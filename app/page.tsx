@@ -14,7 +14,6 @@ const Bio = dynamic(() => import("./bio/Bio"));
 const LinkedIn = dynamic(() => import("./linkedin/Linkedin"));
 const Projects = dynamic(() => import("./projects/Projects"));
 const Snippets = dynamic(() => import("./Snippets/Snippets"));
-const Exercism = dynamic(() => import("./exercism/Exercism"));
 const Contact = dynamic(() => import("./contact/Contact"));
 const Footer = dynamic(() => import("./footer/Footer"));
 
@@ -44,7 +43,6 @@ export default function Home() {
         <LinkedIn />
         <Projects />
         <Snippets />
-        <Exercism />
         <Contact />
         <Footer />
       </main>

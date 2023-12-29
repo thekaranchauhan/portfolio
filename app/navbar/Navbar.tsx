@@ -61,17 +61,6 @@ const Navbar = () => {
       </Link>
 
       <Link
-        href="#exercsim"
-        data-blobity-magnetic="false"
-        onClick={handleScroll}
-        aria-label="Scroll to Snippets Section"
-      >
-        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Exercism
-        </h4>
-      </Link>
-
-      <Link
         href="#contact"
         data-blobity-magnetic="false"
         onClick={handleScroll}
@@ -79,6 +68,17 @@ const Navbar = () => {
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
           Contact
+        </h4>
+      </Link>
+
+      <Link
+        href="https://exercism.org/profiles/thekaranchauhan/testimonials"
+        data-blobity-magnetic="false"
+        onClick={handleScroll}
+        aria-label="Scroll to Snippets Section"
+      >
+        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+          Exercism
         </h4>
       </Link>
     </nav>
