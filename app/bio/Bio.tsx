@@ -56,7 +56,7 @@ const Bio = () => {
               />
               <AnimatedBody
                 text={
-                  "TypeScript, React, Next.js, Python, Redux, Testing Libraries, WordPress, MongoDB, ExpressJs, Node, VueJs, Docker, GraphQL, SQL, Prisma."
+                  "TypeScript, React, Next.js, Python, Ruby, Go, Redux, Testing Libraries, WordPress, MongoDB, ExpressJs, Node, VueJs, Docker, GraphQL, SQL, Prisma."
                 }
               />
             </div>

@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://drive.google.com/file/d/14eplNQa3l5Q7ADuB24vYTZh_H6URGbXG/view"
+            href="https://drive.google.com/file/d/1teKkc788fT4ADdL3gZ7oOiakuE_DCFJs/view?usp=drive_link"
             target="_blank"
             aria-label="View Resume"
           >
@@ -56,7 +56,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/thekaranchauhan/"
+            href="https://drive.google.com/file/d/1teKkc788fT4ADdL3gZ7oOiakuE_DCFJs/view?usp=drive_link"
             target="_blank"
             aria-label="View LinkedIn Profile"
           >
