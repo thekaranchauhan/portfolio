@@ -73,9 +73,9 @@ const Navbar = () => {
 
       <Link
         href="https://exercism.org/profiles/thekaranchauhan/testimonials"
+        target="_blank"
         data-blobity-magnetic="false"
-        onClick={handleScroll}
-        aria-label="Scroll to Snippets Section"
+        aria-label="Go to Exercism Profile"
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
           Exercism
