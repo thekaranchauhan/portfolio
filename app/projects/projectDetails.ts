@@ -74,10 +74,10 @@ export const devProjects =[
 },
 {
   id: 7,
-  name: "Europa Fusion",
+  name: "Europa Fusion (In Progress)",
   description: "Website for a study abroad consultancy based client in India.",
   technologies: ["Next", "Tailwind", "Nodemailer"],
-  demo: "https://europafusion.com/",
+  demo: "https://europafusion.vercel.app/",
   image: require(".//../../public/projects/europa.png"),
   available: true,
 },
