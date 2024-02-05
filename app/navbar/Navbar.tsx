@@ -16,7 +16,7 @@ const Navbar = () => {
     });
   };
   return (
-    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0  mx-auto  flex w-[345px] items-center justify-center gap-1 rounded-lg bg-[#dfa878]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md sm:w-[483.3px] md:p-2 lg:w-[491.3px]">
+    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0  mx-auto  flex w-[345px] items-center justify-center gap-1 rounded-lg bg-[#dfa878]/90 px-1 py-1 text-[#0e1o16] backdrop-blur-md sm:w-[483.3px] md:p-2 lg:w-[491.3px]">
       <Link
         href="#home"
         data-blobity-magnetic="false"
@@ -68,17 +68,6 @@ const Navbar = () => {
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
           Contact
-        </h4>
-      </Link>
-
-      <Link
-        href="https://exercism.org/profiles/thekaranchauhan/testimonials"
-        target="_blank"
-        data-blobity-magnetic="false"
-        aria-label="Go to Exercism Profile"
-      >
-        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Exercism
         </h4>
       </Link>
     </nav>

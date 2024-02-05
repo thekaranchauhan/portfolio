@@ -56,7 +56,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://drive.google.com/file/d/1teKkc788fT4ADdL3gZ7oOiakuE_DCFJs/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1gU1BDRfz2FYQhsL_cGMn-7ik826WA4HG/view?usp=sharing"
             target="_blank"
             aria-label="View LinkedIn Profile"
           >
