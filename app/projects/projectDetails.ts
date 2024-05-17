@@ -20,11 +20,11 @@ export const devProjects =[
 },
 {
   id: 1,
-  name: "Docvi (In Progress)",
-  description: "Unleashing a new era in secure collaboration because your documents deserve more than just storage.",
-  technologies: ["Prisma", "Redux","MERN", "GraphQL"],
-  demo: "https://www.docvi.xyz/",
-  image: require(".//../../public/projects/docvi.png"),
+  name: "Autographi (In Progress)",
+  description: "Autographi: Craft Your Signature Style! No Sign-Up Needed. Just Grab Your Signature in Any Format!",
+  technologies: ["Canvas", "TypeScript"],
+  demo: "https://autographi.vercel.app/",
+  image: require(".//../../public/projects/autographi.png"),
   available: true,
 },
 {
