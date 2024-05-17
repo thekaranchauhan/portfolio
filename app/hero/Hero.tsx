@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://drive.google.com/file/d/1JjTrs_AwK6xomDCYEWekbILcb2Grd4-b/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1teKkc788fT4ADdL3gZ7oOiakuE_DCFJs/view?usp=drive_link"
             target="_blank"
             aria-label="View Resume"
           >
@@ -91,7 +91,10 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            <span className="text-[#dfa878]">Full Stack Developer</span> with most impact on <span className="text-[#dfa878]">Frontend and UI/UX </span>Researcher.
+            <span className="text-[#dfa878]">Full Stack Developer</span> with
+            most impact on{" "}
+            <span className="text-[#dfa878]">Frontend and UI/UX </span>
+            Researcher.
           </p>
         </motion.div>
 
@@ -100,11 +103,23 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on Design and Business, currently building{" "}
-            <Link  className="text-[#dfa878]" href={"https://www.docvi.xyz/"}> Docvi.</Link>
+            Focused on Design and Business, currently based in {" "}
+            <span className="text-[#dfa878]">
+              {" "}
+              Toronto.
+            </span>
           </p>
         </motion.div>
       </div>
+
+      <motion.div
+        className="absolute bottom-[calc(50% - 10px)] left-[calc(50% - 40px)] bg-yellow-500 px-3 py-1 rounded-full cursor-pointer"
+        animate={{ opacity: [1, 0, 1] }}
+        transition={{ duration: 0.5, repeat: Infinity }}
+        onClick={() => window.open("https://mangovisa.com/karan-chauhans-work-permit-story/", "_blank")}
+      >
+        <p className="text-white text-sm font-semibold">Featured Blog</p>
+      </motion.div>
     </motion.section>
   );
 };
